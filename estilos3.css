@@ -1,0 +1,32 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+#my-button{
+    padding: 20px;
+}
+
+#my-button button{
+    background-color: paleturquoise;
+    border: 5px  rgb(91, 196, 206);
+    color: black;
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#my-button button:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+.my-container{
+    width: 50%;
+    margin: 20px;
+}

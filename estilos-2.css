@@ -1,0 +1,33 @@
+body{
+    background-color: lightskyblue;
+}
+h1,h6{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+label{
+   text-align: right;
+   font-weight: bold;
+}
+form{
+    justify-content: center;
+}
+input{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.my-button{
+    width: 50%;
+    text-align: center;
+}
+
+.my-button button{
+    background-color: palevioletred;
+    border: palevioletred;
+}
+
+.my-button button:hover{
+    background-color: purple;
+
+}
